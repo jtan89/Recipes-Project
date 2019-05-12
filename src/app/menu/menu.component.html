@@ -1,0 +1,18 @@
+<div>
+  <button mat-button [matMenuTriggerFor]="recipes">Recipes</button>
+  <mat-menu #recipes="matMenu">
+    <button mat-menu-item>My Recipe Book</button>
+    <button mat-menu-item>My Favorites</button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="mealPlan">Meal Planning</button>
+  <mat-menu #mealPlan="matMenu">
+    <button mat-menu-item>Current Plan</button>
+    <button mat-menu-item>Grocery List</button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="community">Community</button>
+  <mat-menu #community="matMenu">
+    <button mat-menu-item>The Classroom</button>
+    <button mat-menu-item>Groups</button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="profile">Profile</button>
+</div>
