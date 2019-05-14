@@ -7,8 +7,10 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
-
-
+import { BooksComponent } from './books/books.component';
+import { RecipeBookComponent } from './books/recipe-book/recipe-book.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeCardComponent } from './recipes/recipe-card/recipe-card.component';
 
 
 @NgModule({
@@ -17,6 +19,10 @@ import { MenuComponent } from './menu/menu.component';
     HeaderComponent,
     FooterComponent,
     MenuComponent,
+    BooksComponent,
+    RecipeBookComponent,
+    RecipesComponent,
+    RecipeCardComponent
   ],
   imports: [
     BrowserModule,
