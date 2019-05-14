@@ -7,8 +7,8 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
-import { BookCardComponent } from './book-card/book-card.component';
-import { RecipeCardComponent } from './recipe-card/recipe-card.component';
+
+
 
 
 @NgModule({
@@ -17,8 +17,6 @@ import { RecipeCardComponent } from './recipe-card/recipe-card.component';
     HeaderComponent,
     FooterComponent,
     MenuComponent,
-    BookCardComponent,
-    RecipeCardComponent
   ],
   imports: [
     BrowserModule,
