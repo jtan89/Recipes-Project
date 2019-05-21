@@ -10,6 +10,7 @@ const appRoutes: Routes = [
   { path: 'books', component: BooksComponent},
   { path: 'recipes', component: RecipesComponent}
   //{path: '**', component: NotFoundComponent}
+  //test
 ];
 
 @NgModule({
