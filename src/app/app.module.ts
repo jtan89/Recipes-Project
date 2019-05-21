@@ -12,6 +12,8 @@ import { RecipeBookComponent } from './books/recipe-book/recipe-book.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeCardComponent } from './recipes/recipe-card/recipe-card.component';
 
+import { routingComponents, AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +24,13 @@ import { RecipeCardComponent } from './recipes/recipe-card/recipe-card.component
     BooksComponent,
     RecipeBookComponent,
     RecipesComponent,
-    RecipeCardComponent
+    RecipeCardComponent,
+    routingComponents,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule
   ],
