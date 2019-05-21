@@ -1,7 +1,8 @@
-<div>
+<div class='menu'>
+  <button mat-button="home" routerLink="">Home</button>
   <button mat-button [matMenuTriggerFor]="recipes">Recipes</button>
   <mat-menu #recipes="matMenu">
-    <button mat-menu-item>My Recipe Book</button>
+    <button mat-menu-item routerLink="/books">My Recipe Books</button>
     <button mat-menu-item>My Favorites</button>
   </mat-menu>
   <button mat-button [matMenuTriggerFor]="mealPlan">Meal Planning</button>
@@ -14,5 +15,4 @@
     <button mat-menu-item>The Classroom</button>
     <button mat-menu-item>Groups</button>
   </mat-menu>
-  <button mat-button="profile">Profile</button>
 </div>
