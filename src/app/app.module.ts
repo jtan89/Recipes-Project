@@ -14,6 +14,7 @@ import { RecipeCardComponent } from './recipes/recipe-card/recipe-card.component
 
 import { routingComponents, AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HomeComponent } from './home/home.component';
     RecipesComponent,
     RecipeCardComponent,
     routingComponents,
-    HomeComponent
+    HomeComponent,
+    RecipeDetailsComponent
   ],
   imports: [
     BrowserModule,
