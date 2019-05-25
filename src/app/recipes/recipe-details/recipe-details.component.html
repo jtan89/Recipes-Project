@@ -1,28 +1,53 @@
 <div class="nav-control">
-  <a routerLink="/cards">Back</a>
-  <a>Edit</a>
+  <a mat-stroked-button color="warn" routerLink="/cards">Back</a>
+  <button mat-stroked-button color="warn" class="edit-button">Edit</button>
 </div>
 
-<mat-grid-list cols="2" rowHeight="30vh">
-  <mat-grid-tile>
-    <div>
-      <p>Title</p>
-    </div>
-  </mat-grid-tile>
-  <mat-grid-tile>2</mat-grid-tile>
-</mat-grid-list>
+<div class="details-container">
+
+  <h1>Spaghetti Meatballs</h1>
+  <section>
+    <span>Total Time</span>
+    <span>Servings</span>
+    <span>Calories</span>
+  </section>
+
+  <div>
+    <img class="details-main-image"
+      src="https://www.tasteofhome.com/wp-content/uploads/2018/03/Best-Spaghetti-and-Meatballs_exps1912_PP2321917A05_09_2bC_RMS-696x696.jpg">
+  </div>
+
+  <section>
+    <h3>Ingredients</h3>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Directions</h3>
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ol>
+  </section>
+  
+  <section>
+    <h3>Notes</h3>
+    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+  </section>
+
+  <section>
+    <h3>Macronutrient Information</h3>
+    <ul>
+        <li>Calories</li>
+        <li>Carbs</li>
+        <li>Protein</li>
+        <li>Fat</li>
+      </ul>
+  </section>
 
 
-<mat-grid-list cols="1" rowHeight="30vh">
-  <mat-grid-tile>
-    <mat-list>
-      <h2>Ingredients</h2>
-      <mat-list-item> Pepper </mat-list-item>
-      <mat-list-item> Salt </mat-list-item>
-      <mat-list-item> Paprika </mat-list-item>
-    </mat-list>
-  </mat-grid-tile>
-  <mat-grid-tile>Directions</mat-grid-tile>
-  <mat-grid-tile>Notes</mat-grid-tile>
-  <mat-grid-tile>Nutrition Facts</mat-grid-tile>
-</mat-grid-list>
+
+</div>

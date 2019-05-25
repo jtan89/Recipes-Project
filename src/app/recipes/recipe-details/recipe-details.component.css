@@ -1,0 +1,20 @@
+
+.nav-control {
+   margin: 0 auto; 
+   width: 50vh;
+}
+
+.edit-button {
+    float: right;
+    color: green;
+}
+
+.details-container {
+    width: 50vh;
+    margin: 0 auto;
+}
+
+.details-main-image {
+    max-width: 100%;
+    max-height: auto;
+}
