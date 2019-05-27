@@ -1,0 +1,81 @@
+[
+    {
+        "bookName": "Breakfast Recipes",
+        "recipes": [
+            {
+                "id": 1,
+                "author": "john",
+                "name": "Spaghetti Meatballs",
+                "mainImage": "https://www.tasteofhome.com/wp-content/uploads/2018/03/Best-Spaghetti-and-Meatballs_exps1912_PP2321917A05_09_2bC_RMS-696x696.jpg",
+                "description": "Homemade meatballs are a very easy meal to make and since we skip the very messy step of pan-frying these before they hit the sauce, it becomes downright simple",
+                "totalTime": "20",
+                "servings": "1",
+                "ingredients": "NA",
+                "directions": "NA",
+                "notes": "NA",
+                "macros": {
+                    "carbs": 30,
+                    "protein": 50,
+                    "fat": 20
+                }
+            },
+            {
+                "id": 2,
+                "author": "john",
+                "name": "Chicken Noodle Soup",
+                "mainImage": "https://www.tasteofhome.com/wp-content/uploads/2018/04/exps192832_TH163619D09_30_2b.jpg",
+                "description": "Whether your sick or in the mood for a traditional chicken noodle soup, here's a recipe that is quick and easy to make.",
+                "totalTime": "15",
+                "servings": "2",
+                "ingredients": "NA",
+                "directions": "NA",
+                "notes": "NA",
+                "macros": {
+                    "carbs": 30,
+                    "protein": 50,
+                    "fat": 20
+                }
+            }
+        ]
+    },
+    {
+        "bookName": "Lunch Recipes",
+        "recipes": [
+            {
+                "id": 1,
+                "author": "john",
+                "name": "Roasted Chicken",
+                "mainImage": "https://cafedelites.com/wp-content/uploads/2017/12/Perfect-Juicy-Roast-Chicken-IMAGE-28.jpg",
+                "description": "Make yourself a great roasted chicken that will rival any supermarket store rotisserie style chicken.",
+                "totalTime": "60",
+                "servings": "3",
+                "ingredients": "NA",
+                "directions": "NA",
+                "notes": "NA",
+                "macros": {
+                    "carbs": 30,
+                    "protein": 50,
+                    "fat": 20
+                }
+            },
+            {
+                "id": 2,
+                "author": "john",
+                "name": "Pork Bone Soup",
+                "mainImage": "https://media-cdn.tripadvisor.com/media/photo-s/05/bf/4f/70/pork-bone-soup-yum.jpg",
+                "description": "Always wanted to make pork bone soup? Well here's an easy beginner method to making a great meal for the family",
+                "totalTime": "35",
+                "servings": "4",
+                "ingredients": "NA",
+                "directions": "NA",
+                "notes": "NA",
+                "macros": {
+                    "carbs": 30,
+                    "protein": 50,
+                    "fat": 20
+                }
+            }
+        ]
+    }
+]
+       

@@ -13,6 +13,7 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeCardComponent } from './recipes/recipe-card/recipe-card.component';
 
 import { routingComponents, AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 
@@ -34,7 +35,8 @@ import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

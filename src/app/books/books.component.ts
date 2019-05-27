@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserRecipesService } from '../user-recipes.service';
 
 @Component({
   selector: 'app-books',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BooksComponent implements OnInit {
 
-  constructor() { }
+  public userRecipes = [];
+
+  constructor(private userRecipesService: UserRecipesService) { }
 
   ngOnInit() {
+    this.userRecipesService.getUserRecipes()
+    .subscribe((data) => {
+      this.userRecipes = data;
+    });
+  }
+
+  selectBook(book) {
+    this.userRecipesService.setSelectedBook(book);
   }
 
 }

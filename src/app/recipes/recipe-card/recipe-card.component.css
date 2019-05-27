@@ -1,5 +1,6 @@
 .recipe-card {
-  max-width: 250px;
+  max-width: 400px;
+  
 }
 
 .recipe-card:hover {
@@ -8,9 +9,4 @@
   box-shadow: 10px 10px 5px rgb(165, 162, 162);
   opacity: 1;
   transition: all 0.5s;
-}
-
-
-.recipe-image {
-  max-height: 250px;
 }

@@ -1,17 +1,8 @@
-<mat-grid-list cols="4" gutterSize="10px" rowHeight="25vh">
-  <mat-grid-tile>
-    <app-recipe-book></app-recipe-book>
-  </mat-grid-tile>
-  <mat-grid-tile>
-    <app-recipe-book></app-recipe-book>
-  </mat-grid-tile>
-  <mat-grid-tile>
-    <app-recipe-book></app-recipe-book>
-  </mat-grid-tile>
-  <mat-grid-tile>
-    <app-recipe-book></app-recipe-book>
-  </mat-grid-tile>
-  <mat-grid-tile>
-    <app-recipe-book></app-recipe-book>
-  </mat-grid-tile>
-</mat-grid-list>
+<div class="nav-control-books">
+  <a mat-stroked-button color="warn" routerLink="">Back</a>
+</div>
+
+
+  <div *ngFor="let recipeBook of userRecipes">
+    <app-recipe-book [books]="recipeBook" (click)="selectBook(recipeBook)" routerLink="/cards"></app-recipe-book>
+  </div>

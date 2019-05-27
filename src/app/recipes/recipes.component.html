@@ -1,25 +1,17 @@
-<div class="main-view">
-  <mat-grid-list cols="4" gutterSize="10px" rowHeight="50vh">
-    <mat-grid-tile>
-      <app-recipe-card></app-recipe-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-recipe-card></app-recipe-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-recipe-card></app-recipe-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-recipe-card></app-recipe-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-recipe-card></app-recipe-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-recipe-card></app-recipe-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-recipe-card></app-recipe-card>
-    </mat-grid-tile>
-  </mat-grid-list>
-</div>
+
+  <div class="nav-control-recipes">
+    <a mat-stroked-button color="warn" routerLink="/books">Back</a>
+  </div>
+  
+   
+      <div *ngFor="let recipe of currentBook.recipes">
+        <app-recipe-card [activeRecipes]="recipe"></app-recipe-card>
+      </div>
+
+
+
+
+<!-- <div *ngFor="let recipeBook of userRecipes; let i = index">
+  <span>{{recipeBook.book}}</span>
+  <p *ngFor="let recipe of recipeBook.recipes"> {{recipe.name}}</p>
+</div> -->
