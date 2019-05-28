@@ -2,7 +2,12 @@
   <a mat-stroked-button color="warn" routerLink="">Back</a>
 </div>
 
-
-  <div *ngFor="let recipeBook of userRecipes">
-    <app-recipe-book [books]="recipeBook" (click)="selectBook(recipeBook)" routerLink="/cards"></app-recipe-book>
-  </div>
+<div class ="flexbox-container-books">
+  <app-recipe-book
+    class ="flexbox-item-books"
+    *ngFor="let recipeBook of userRecipes"
+    [books]="recipeBook"
+    (click)="selectBook(recipeBook)"
+    routerLink="/cards"
+  ></app-recipe-book>
+</div>

@@ -1,17 +1,10 @@
+<div class="nav-control-recipes">
+  <a mat-stroked-button color="warn" routerLink="/books">Back</a>
+</div>
 
-  <div class="nav-control-recipes">
-    <a mat-stroked-button color="warn" routerLink="/books">Back</a>
-  </div>
-  
-   
-      <div *ngFor="let recipe of currentBook.recipes">
-        <app-recipe-card [activeRecipes]="recipe"></app-recipe-card>
-      </div>
-
-
-
-
-<!-- <div *ngFor="let recipeBook of userRecipes; let i = index">
-  <span>{{recipeBook.book}}</span>
-  <p *ngFor="let recipe of recipeBook.recipes"> {{recipe.name}}</p>
-</div> -->
+<div class ="flexbox-container-recipes">
+  <app-recipe-card class ="flexbox-item-recipes"
+    *ngFor="let recipe of currentBook.recipes"
+    [activeRecipes]="recipe"
+  ></app-recipe-card>
+</div>
