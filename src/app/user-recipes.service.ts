@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 export class UserRecipesService {
 
   public selectedBook: [];
+  public selectedRecipe: any;
 
   private url: string = '/assets/data/recipes.json';
 
@@ -21,7 +22,11 @@ export class UserRecipesService {
 
   setSelectedBook(book) {
     this.selectedBook = book;
-    //console.log(this.selectedBook);
+    // console.log(this.selectedBook);
+  }
+
+  setSelectedRecipe(recipe) {
+    this.selectedRecipe = recipe;
   }
 
 }

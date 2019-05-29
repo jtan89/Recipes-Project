@@ -5,46 +5,48 @@
 
 <div class="details-container">
 
-  <h1>Spaghetti Meatballs</h1>
+  <h1>
+    {{activeRecipe.name}}
+  </h1>
   <section>
-    <span>Total Time</span>
-    <span>Servings</span>
+    <span>Cooking Time: {{activeRecipe.totalTime}} Minutes</span>
+    <br>
+    <span>{{activeRecipe.servings}} Servings</span>
+    <br>
     <span>Calories</span>
   </section>
 
   <div>
     <img class="details-main-image"
-      src="https://www.tasteofhome.com/wp-content/uploads/2018/03/Best-Spaghetti-and-Meatballs_exps1912_PP2321917A05_09_2bC_RMS-696x696.jpg">
-  </div>
+      [src]="activeRecipe.mainImage">
+    </div>
 
   <section>
     <h3>Ingredients</h3>
     <ul>
-      <li>item 1</li>
-      <li>item 2</li>
+      <li>{{activeRecipe.ingredients}}</li>
     </ul>
   </section>
 
   <section>
     <h3>Directions</h3>
     <ol>
-      <li>item 1</li>
-      <li>item 2</li>
+      <li>{{activeRecipe.directions}}</li>
     </ol>
   </section>
-  
+
   <section>
     <h3>Notes</h3>
-    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+    <p>{{activeRecipe.notes}}</p>
   </section>
 
   <section>
     <h3>Macronutrient Information</h3>
     <ul>
-        <li>Calories</li>
-        <li>Carbs</li>
-        <li>Protein</li>
-        <li>Fat</li>
+        <li>Calories:</li>
+        <li>Carbs: {{activeRecipe.macros.carbs}}</li>
+        <li>Protein: {{activeRecipe.macros.protein}}</li>
+        <li>Fat: {{activeRecipe.macros.fat}}</li>
       </ul>
   </section>
 

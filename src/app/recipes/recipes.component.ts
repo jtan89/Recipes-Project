@@ -19,7 +19,10 @@ export class RecipesComponent implements OnInit {
     //   .subscribe((data) => {
     //     this.userRecipes = data;
     //   });
-    console.log(this.currentBook);
+  }
+
+  selectRecipe(recipe) {
+    this.userRecipesService.setSelectedRecipe(recipe);
   }
 
 }
