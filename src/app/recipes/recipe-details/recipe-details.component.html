@@ -17,21 +17,20 @@
   </section>
 
   <div>
-    <img class="details-main-image"
-      [src]="activeRecipe.mainImage">
-    </div>
+    <img class="details-main-image" [src]="activeRecipe.mainImage">
+  </div>
 
   <section>
     <h3>Ingredients</h3>
     <ul>
-      <li>{{activeRecipe.ingredients}}</li>
+      <li *ngFor="let ingredient of activeRecipe.ingredients">{{ingredient}}</li>
     </ul>
   </section>
 
   <section>
     <h3>Directions</h3>
     <ol>
-      <li>{{activeRecipe.directions}}</li>
+      <li *ngFor="let direction of activeRecipe.directions">{{direction}}</li>
     </ol>
   </section>
 
@@ -43,11 +42,11 @@
   <section>
     <h3>Macronutrient Information</h3>
     <ul>
-        <li>Calories:</li>
-        <li>Carbs: {{activeRecipe.macros.carbs}}</li>
-        <li>Protein: {{activeRecipe.macros.protein}}</li>
-        <li>Fat: {{activeRecipe.macros.fat}}</li>
-      </ul>
+      <li>Calories:</li>
+      <li>Carbs: {{activeRecipe.macros.carbs}}</li>
+      <li>Protein: {{activeRecipe.macros.protein}}</li>
+      <li>Fat: {{activeRecipe.macros.fat}}</li>
+    </ul>
   </section>
 
 

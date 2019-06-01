@@ -11,8 +11,8 @@ export interface Recipe {
     mainImage: string;
     totalTime: string;
     servings: string;
-    ingredients: string;
-    directions: string;
+    ingredients: string[];
+    directions: string[];
     notes: string;
     macros: Macros;
 }

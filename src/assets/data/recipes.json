@@ -10,8 +10,8 @@
                 "description": "Homemade meatballs are a very easy meal to make and since we skip the very messy step of pan-frying these before they hit the sauce, it becomes downright simple",
                 "totalTime": "20",
                 "servings": "1",
-                "ingredients": "NA",
-                "directions": "NA",
+                "ingredients": ["2 garlic cloves", "1/2 onion", "1tbsp salt"],
+                "directions": ["Cut up the ingredients", "boil the water", "let the dish rest"],
                 "notes": "NA",
                 "macros": {
                     "carbs": 30,
@@ -27,8 +27,8 @@
                 "description": "Whether your sick or in the mood for a traditional chicken noodle soup, here's a recipe that is quick and easy to make.",
                 "totalTime": "15",
                 "servings": "2",
-                "ingredients": "NA",
-                "directions": "NA",
+                "ingredients": ["garlic", "onion", "salt"],
+                "directions": ["Cut up the ingredients", "boil the water", "let the dish rest"],
                 "notes": "NA",
                 "macros": {
                     "carbs": 30,
@@ -49,8 +49,8 @@
                 "description": "Make yourself a great roasted chicken that will rival any supermarket store rotisserie style chicken.",
                 "totalTime": "60",
                 "servings": "3",
-                "ingredients": "NA",
-                "directions": "NA",
+                "ingredients": ["garlic", "onion", "salt"],
+                "directions": ["Cut up the ingredients", "boil the water", "let the dish rest"],
                 "notes": "NA",
                 "macros": {
                     "carbs": 30,
@@ -66,8 +66,8 @@
                 "description": "Always wanted to make pork bone soup? Well here's an easy beginner method to making a great meal for the family",
                 "totalTime": "35",
                 "servings": "4",
-                "ingredients": "NA",
-                "directions": "NA",
+                "ingredients": ["garlic", "onion", "salt"],
+                "directions": ["Cut up the ingredients", "boil the water", "let the dish rest"],
                 "notes": "NA",
                 "macros": {
                     "carbs": 30,
